@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp -HR betty:holberton _hello
+chgrp -HR _hello betty:holberton
