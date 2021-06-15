@@ -1,2 +1,2 @@
 #!/bin/bash
-echo */ | wc -l
+find {dir-1,dir-2/subdir} -name '*.php' | xargs wc -l
