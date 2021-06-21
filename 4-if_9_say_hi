@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#uses a while loop to print 10 times 'Holberton School'
+#uses a while loop to print 10 times 'Holberton School' and an if statement to print 'hi' on line 9
 x=1
 
 while [ $x -le 9 ]
