@@ -7,7 +7,7 @@ while [ $x -le 20 ]
 do
   
    echo "$x"
-   x=$(( $x + 1 ))
+   x=$(( x + 1 ))
 
   case $x  in
                 5)
