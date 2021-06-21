@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #untill loop prints 'Holberton School' 10 times
 counter=0
-until [ $counter -gt 10 ]
+until [ $counter -gt 9 ]
 do
   echo "Holberton School"
   ((counter++))
