@@ -1,15 +1,20 @@
 #!/usr/bin/env bash
 
-HOURS=0
-SECONDS=0
+#Replicates a clock by iterating 60 seconds and increasing hour by one
+HOUR=0
+MINUTES=0
 
-while [ $SECONDS -le 60 ]
-do
-   echo "HOUR: $HOUR"
-   echo "$SECONDS"
-   SECONDS=$(( $SECONDS + 1 ))
-   
+echo "Hour: $HOUR"
 
-
+while [ $HOUR -lt 12 ]
+  do
+  MINUTES=0
+  while [ $MINUTES -lt 59 ]
+        do
+        MINUTES=$(($MINUTES+1))
+        echo "$MINUTES"
+	
+	done
+  HOUR=$(($HOUR+1))
+echo "Hour: $HOUR"
 done
-
