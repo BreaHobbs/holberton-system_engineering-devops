@@ -9,10 +9,10 @@ while [ $HOUR -lt 12 ]
   MINUTES=0
   while [ $MINUTES -lt 59 ]
         do
-        MINUTES=$(($MINUTES+1))
+        MINUTES=$((MINUTES+1))
         echo "$MINUTES"
 	
 	done
-  HOUR=$(($HOUR+1))
+  HOUR=$((HOUR+1))
 echo "Hour: $HOUR"
 done
