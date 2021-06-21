@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+HOURS=0
+SECONDS=0
+
+while [ $SECONDS -le 60 ]
+do
+   echo "HOUR: $HOUR"
+   echo "$SECONDS"
+   SECONDS=$(( $SECONDS + 1 ))
+   
+
+
+done
+
