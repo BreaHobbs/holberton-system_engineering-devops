@@ -3,7 +3,6 @@
 HOUR=0
 MINUTES=1
 
-echo "Hour: $HOUR"
 while [ $HOUR -le 12 ]
   do
   echo "Hour: $HOUR"
