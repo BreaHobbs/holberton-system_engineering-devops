@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Fizz on 3s Buzz on 5s Fizzbuzz on 15s
 x=0
 
 
