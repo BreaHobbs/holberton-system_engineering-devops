@@ -2,5 +2,5 @@
 #This script that displays the content of current directory, in list format
 
 for f in *; do
-  cut -d "-" -f 2 -s <<< $f
+  cut -d "-" -f 2 <<< $f
 done
