@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
+#Displays lines containing bash from the previous excercises's output
+# shellcheck disable=SC2009
 ps auxf | grep bash
